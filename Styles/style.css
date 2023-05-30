@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+
+    --red-orange: #E94F01;
+    --yellow-not: #E7A625;
+    --yellow-darknot: #D19724;
+    --cian-dark: #1C7184;
+    --white-base: #FFFFFF;
+
+    --ff-inter: "Inter", sans-serif;
+
+    --fs-1: 64px;
+    --fs-2: 48px;
+    --fs-3: 40px;
+    --fs-4: 36px;
+    --fs-5: 32px;
+    --fs-6: 26px;
+    --fs-7: 20px;
+
+    --transition: 0.25s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: var(--ff-inter);
+}
+
+header {
+    position: fixed;
+    background: var(--white-base);
+    border-radius: 0px 0px 15px 15px;
+    width: 70vw;
+    margin: 0 0 15vw 15vw;
+    padding-block: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 3);
+}
+
+
+
+.conteudo-grid {
+    display: flex;
+    align-items: center;
+    padding-inline: 8px;
+    justify-content: space-between;
+}
+
+.conteudo-header {}
+
+.navbar-words {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: max-content;
+    gap: 40px;
+    margin-inline: auto;
+}
+
+.navbar-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 80px;
+}
+
+/* BODY */
+
+.vector {
+    width: 100vw;
+
+}
+
+section .register {
+    background: url("/Components/Images/Parede-red3.png");
+
+}
